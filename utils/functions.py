@@ -71,7 +71,7 @@ def plot_clusters_2d(model, clustering_data, full_data, noise=False):
                          bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="none", alpha=0.7),
             )
     
-    plt.title(f'{type(model).__name__} clustering Projected with 2D PCA', fontsize=16)
+    plt.title(f'{type(model).__name__} clustering projected with 2D PCA', fontsize=16)
     plt.xlabel('PCA Component 1', fontsize=12)
     plt.ylabel('PCA Component 2', fontsize=12)
     
