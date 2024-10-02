@@ -1,0 +1,193 @@
+Rank,Location,Value,Period
+1,Nauru,61.0,2016
+2,Cook Islands,55.9,2016
+3,Palau,55.3,2016
+4,Marshall Islands,52.9,2016
+5,Tuvalu,51.6,2016
+6,Niue,50.0,2016
+7,Tonga,48.2,2016
+8,Samoa,47.3,2016
+9,Kiribati,46.0,2016
+10,"Micronesia, Federated States of",45.8,2016
+11,Kuwait,37.9,2016
+12,United States,36.2,2016
+13,Jordan,35.5,2016
+14,Saudi Arabia,35.4,2016
+15,Qatar,35.1,2016
+16,Libya,32.5,2016
+17,Turkey (Turkiye),32.1,2016
+18,Lebanon,32.0,2016
+19,Egypt,32.0,2016
+20,United Arab Emirates,31.7,2016
+21,"Bahamas, The",31.6,2016
+22,New Zealand,30.8,2016
+23,Iraq,30.4,2016
+24,Fiji,30.2,2016
+25,Bahrain,29.8,2016
+26,Canada,29.4,2016
+27,Australia,29.0,2016
+28,Mexico,28.9,2016
+29,Malta,28.9,2016
+30,South Africa,28.3,2016
+31,Argentina,28.3,2016
+32,Chile,28.0,2016
+33,Uruguay,27.9,2016
+34,Dominica,27.9,2016
+35,Syria,27.8,2016
+36,United Kingdom,27.8,2016
+37,Dominican Republic,27.6,2016
+38,Algeria,27.4,2016
+39,Oman,27.0,2016
+40,Tunisia,26.9,2016
+41,Suriname,26.4,2016
+42,Hungary,26.4,2016
+43,Lithuania,26.3,2016
+44,Morocco,26.1,2016
+45,Israel,26.1,2016
+46,Czechia,26.0,2016
+47,Iran,25.8,2016
+48,Costa Rica,25.7,2016
+49,Venezuela,25.6,2016
+50,Andorra,25.6,2016
+51,Ireland,25.3,2016
+52,Vanuatu,25.2,2016
+53,Bulgaria,25.0,2016
+54,Greece,24.9,2016
+55,Jamaica,24.7,2016
+56,Cuba,24.6,2016
+57,El Salvador,24.6,2016
+58,Belarus,24.5,2016
+59,Croatia,24.4,2016
+60,Belize,24.1,2016
+61,Ukraine,24.1,2016
+62,Spain,23.8,2016
+63,Nicaragua,23.7,2016
+64,Saint Vincent and the Grenadines,23.7,2016
+65,Latvia,23.6,2016
+66,Montenegro,23.3,2016
+67,Norway,23.1,2016
+68,Poland,23.1,2016
+69,Barbados,23.1,2016
+70,Russia,23.1,2016
+71,Saint Kitts and Nevis,22.9,2016
+72,Haiti,22.7,2016
+73,Panama,22.7,2016
+74,Luxembourg,22.6,2016
+75,Solomon Islands,22.5,2016
+76,Romania,22.5,2016
+77,North Macedonia,22.4,2016
+78,Colombia,22.3,2016
+79,Germany,22.3,2016
+80,Finland,22.2,2016
+81,Brazil,22.1,2016
+82,Belgium,22.1,2016
+83,Iceland,21.9,2016
+84,Cyprus,21.8,2016
+85,Georgia,21.7,2016
+86,Albania,21.7,2016
+87,France,21.6,2016
+88,Serbia,21.5,2016
+89,Honduras,21.4,2016
+90,Papua New Guinea,21.3,2016
+91,Grenada,21.3,2016
+92,Guatemala,21.2,2016
+93,Estonia,21.2,2016
+94,Kazakhstan,21.0,2016
+95,Portugal,20.8,2016
+96,Sweden,20.6,2016
+97,Mongolia,20.6,2016
+98,Slovakia,20.5,2016
+99,Netherlands,20.4,2016
+100,Paraguay,20.3,2016
+101,Armenia,20.2,2016
+102,Guyana,20.2,2016
+103,Bolivia,20.2,2016
+104,Slovenia,20.2,2016
+105,Austria,20.1,2016
+106,Ecuador,19.9,2016
+107,Azerbaijan,19.9,2016
+108,Italy,19.9,2016
+109,Denmark,19.7,2016
+110,Peru,19.7,2016
+111,Saint Lucia,19.7,2016
+112,Switzerland,19.5,2016
+113,Moldova,18.9,2016
+114,Botswana,18.9,2016
+115,Antigua and Barbuda,18.9,2016
+116,Turkmenistan,18.6,2016
+117,Trinidad and Tobago,18.6,2016
+118,Bosnia and Herzegovina,17.9,2016
+119,Namibia,17.2,2016
+120,Yemen,17.1,2016
+121,Lesotho,16.6,2016
+122,Kyrgyzstan,16.6,2016
+123,Uzbekistan,16.6,2016
+124,Eswatini,16.5,2016
+125,Malaysia,15.6,2016
+126,Zimbabwe,15.5,2016
+127,Gabon,15.0,2016
+128,Tajikistan,14.2,2016
+129,Brunei,14.1,2016
+130,Seychelles,14.0,2016
+131,Djibouti,13.5,2016
+132,Mauritania,12.7,2016
+133,Sao Tome and Principe,12.4,2016
+134,Cabo Verde,11.8,2016
+135,Cameroon,11.4,2016
+136,Ghana,10.9,2016
+137,Mauritius,10.8,2016
+138,"Gambia, The",10.3,2016
+139,Cote d'Ivoire,10.3,2016
+140,Thailand,10.0,2016
+141,Liberia,9.9,2016
+142,Benin,9.6,2016
+143,"Congo, Republic of the",9.6,2016
+144,Guinea-Bissau,9.5,2016
+145,Nigeria,8.9,2016
+146,Senegal,8.8,2016
+147,Sierra Leone,8.7,2016
+148,Pakistan,8.6,2016
+149,Maldives,8.6,2016
+150,Mali,8.6,2016
+151,Togo,8.4,2016
+152,Tanzania,8.4,2016
+153,Somalia,8.3,2016
+154,Angola,8.2,2016
+155,Zambia,8.1,2016
+156,Equatorial Guinea,8.0,2016
+157,Comoros,7.8,2016
+158,Guinea,7.7,2016
+159,Central African Republic,7.5,2016
+160,Mozambique,7.2,2016
+161,Kenya,7.1,2016
+162,Indonesia,6.9,2016
+163,"Korea, North",6.8,2016
+164,"Congo, Democratic Republic of the",6.7,2016
+165,Sudan,6.6,2016
+166,South Sudan,6.6,2016
+167,Philippines,6.4,2016
+168,Bhutan,6.4,2016
+169,China,6.2,2016
+170,Singapore,6.1,2016
+171,Chad,6.1,2016
+172,Rwanda,5.8,2016
+173,Burma,5.8,2016
+174,Malawi,5.8,2016
+175,Burkina Faso,5.8,2016
+176,Niger,5.6,2016
+177,Afghanistan,5.5,2016
+178,Burundi,5.5,2016
+179,Laos,5.4,2016
+180,Uganda,5.3,2016
+181,Madagascar,5.3,2016
+182,Sri Lanka,5.3,2016
+183,Eritrea,5.2,2016
+184,"Korea, South",5.0,2016
+185,Ethiopia,4.7,2016
+186,Japan,4.5,2016
+187,Nepal,4.3,2016
+188,Cambodia,4.1,2016
+189,India,3.9,2016
+190,Timor-Leste,3.9,2016
+191,Bangladesh,3.8,2016
+192,Vietnam,3.6,2016
