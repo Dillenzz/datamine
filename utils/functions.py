@@ -31,12 +31,13 @@ def evaluate_clusters(metric, data, labels):
     else:
         print('Score cannot be calculated, only one cluster found.')
         
-def plot_clusters_2d(model, clustering_data, full_data, noise=False):
+def plot_clusters_2d(model, clustering_data, full_data, noise=False, pca=True):
     """ Plots the clustering in 2D PCA with improved colormap """
     full_data['Cluster'] = model.labels_
     
-    pca = PCA(n_components=2)
-    pca_components = pca.fit_transform(clustering_data)
+    if pca:
+        pca = PCA(n_components=2)
+        clustering_data = pca.fit_transform(clustering_data)
     
     representative_countries = full_data.groupby('Cluster')['Location'].first()
     
@@ -57,23 +58,23 @@ def plot_clusters_2d(model, clustering_data, full_data, noise=False):
         cluster_colors = model.labels_
     
     plt.figure(figsize=(10, 8))
-    scatter = plt.scatter(pca_components[:, 0], pca_components[:, 1],
+    scatter = plt.scatter(clustering_data[:, 0], clustering_data[:, 1],
                           c=cluster_colors, cmap=discrete_cmap, s=50,
                           alpha=0.7)
     
     for cluster, country in representative_countries.items():
         if cluster != -1 or not noise:
             idx = full_data[full_data['Location'] == country].index[0]
-            x, y = pca_components[idx, 0], pca_components[idx, 1]
+            x, y = clustering_data[idx, 0], clustering_data[idx, 1]
             plt.annotate(country, (x, y),
                          xytext=(5, 5), textcoords='offset points',
                          fontsize=10, weight='bold',
                          bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="none", alpha=0.7),
             )
     
-    plt.title(f'{type(model).__name__} clustering projected with 2D PCA', fontsize=16)
-    plt.xlabel('PCA Component 1', fontsize=12)
-    plt.ylabel('PCA Component 2', fontsize=12)
+    plt.title(f'{type(model).__name__} clustering projected' + 'with 2D PCA' if pca else '', fontsize=16)
+    plt.xlabel('Component 1', fontsize=12)
+    plt.ylabel('Component 2', fontsize=12)
     
     colorbar = plt.colorbar(scatter, aspect=30)
     if noise:
